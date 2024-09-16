@@ -1,0 +1,20 @@
+2024-09-16 11:10:59.904 [info] 
+
+
+
+
+2024-09-16 11:10:59.924 [info] Extension host agent started.
+2024-09-16 11:11:00.470 [error] [<unknown>][149bda42][ManagementConnection] Unknown reconnection token (never seen).
+2024-09-16 11:11:36.248 [info] [<unknown>][97d29b84][ExtensionHostConnection] New connection established.
+2024-09-16 11:11:36.254 [info] [<unknown>][97d29b84][ExtensionHostConnection] <2543> Launched Extension Host Process.
+2024-09-16 11:11:36.269 [info] [<unknown>][d4f5ed35][ManagementConnection] New connection established.
+2024-09-16 11:15:59.925 [info] New EH opened, aborting shutdown
+2024-09-16 11:32:38.021 [info] Getting Manifest... redhat.vscode-yaml
+2024-09-16 11:32:38.026 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ubuntu/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/out/vs/server/node/server.main.js:198:6390)
+    at process.emit (node:events:531:35)
+2024-09-16 11:32:38.046 [info] Installing extension: redhat.vscode-yaml {"installPreReleaseVersion":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.93.0","date":"2024-09-04T13:02:38.431Z"}}
+2024-09-16 11:32:39.581 [info] Extension signature verification result for redhat.vscode-yaml: Success. Executed: true. Duration: 1341ms.
+2024-09-16 11:32:39.713 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.15.0: redhat.vscode-yaml
+2024-09-16 11:32:39.720 [info] Renamed to /home/ubuntu/.vscode-server/extensions/redhat.vscode-yaml-1.15.0
+2024-09-16 11:32:39.734 [info] Extension installed successfully: redhat.vscode-yaml file:///home/ubuntu/.vscode-server/extensions/extensions.json
